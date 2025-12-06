@@ -3,9 +3,10 @@ numpy
 nltk
 scikit-learn
 scipy
-tensorflow==2.15.0
+tensorflow-cpu==2.15.0
 joblib
 streamlit
 matplotlib
 seaborn
+
 
