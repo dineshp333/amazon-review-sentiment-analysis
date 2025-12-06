@@ -8,9 +8,9 @@ from tensorflow.keras.models import load_model
 # Load Model + Vectorizers
 # --------------------------
 
-MODEL_PATH = r"D:\Data Science With Python\streamlit\model.keras"
-CV1_PATH = r"D:\Data Science With Python\streamlit\cv1.pkl"   # headline vectorizer
-CV2_PATH = r"D:\Data Science With Python\streamlit\cv2.pkl"   # review body vectorizer
+MODEL_PATH = "model.keras"
+CV1_PATH = "cv1.pkl"   # headline vectorizer
+CV2_PATH = "cv2.pkl"   # review body vectorizer
 
 # Load model
 model = tf.keras.models.load_model(MODEL_PATH)
@@ -62,3 +62,4 @@ if st.button("Predict Sentiment"):
 
         st.success(f"### ⭐ Sentiment: **{sentiment}**")
         st.info(f"### 📊 Model confidence: **{prob:.3f}**")
+
