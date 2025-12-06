@@ -4,7 +4,7 @@
 ## ⭐ Amazon Product Review Classification – NLP Project (Sentiment Analysis)
 
 🚀 **Live Demo:** 
-👉 https://amazon-review-sentiment-analysis-2hwdkvhjwvpkqurf3wxknw.streamlit.app/
+👉 [https://amazon-review-sentiment-analysis-2hwdkvhjwvpkqurf3wxknw.streamlit.app/](https://amazon-review-sentiment-analysis-2hwdkvhjwvpkqurf3wxknw.streamlit.app/)
  
 - This project classifies Amazon product reviews (headline + review body) into
 **Positive** or **Negative** using NLP, Machine Learning, and Deep Learning.
@@ -19,3 +19,4 @@
 
 
 - Streamlit web app for real-time prediction
+
