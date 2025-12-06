@@ -1,13 +1,12 @@
 pandas
 numpy
-nltk
-scikit-learn
+joblib
 scipy
-tensorflow-cpu==2.15.0
-joblib==1.4.2
+scikit-learn
+tensorflow
 streamlit
-matplotlib
-seaborn
+
+
 
 
 
